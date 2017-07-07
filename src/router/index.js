@@ -25,9 +25,5 @@ export default new Router({
       name: 'Home',
       redirect: '/dashboard'
     }
-  ],
-  scrollBehavior (to, from, savedPosition) {
-    console.log('cok')
-    return { x: 0, y: 0 }
-  }
+  ]
 })
