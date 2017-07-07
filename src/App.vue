@@ -10,8 +10,6 @@
 </template>
 
 <script>
-/* eslint-disable */
-
 window.$ = window.jQuery = require('jquery')
 require('bootstrap/dist/js/bootstrap')
 
