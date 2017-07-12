@@ -15,8 +15,6 @@
             </ol>
         </div>
     </div>
-    <!-- /.row -->
-
     <div class="row">
         <div class="col-lg-6">
             <h2>Bordered Table</h2>

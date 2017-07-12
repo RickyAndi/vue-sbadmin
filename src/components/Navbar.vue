@@ -65,7 +65,7 @@
       <ul class="nav navbar-nav side-nav">
         <li v-for="route in routes">
           <router-link v-if="!route.hasChild" router-link :to="route.path"><i :class="route.icon"></i> {{ route.name }}</router-link>
-          <a v-if="route.hasChild" href="javascript:;" data-toggle="collapse" :data-target="'#' + route.name"><i class="fa fa-fw fa-arrows-v"></i>{{ route.name }}<i :class="route.icon"></i></a>
+          <a v-if="route.hasChild" href="javascript:;" data-toggle="collapse" :data-target="'#' + route.name"><i :class="route.icon"></i> {{ route.name }}<i class="fa fa-fw fa-caret-down"></i></a>
           <ul :id="route.name" class="collapse">
               <li v-for="child in route.childs">
                   <router-link :to="child.path"><i :class="child.icon"></i> {{ child.name }}</router-link>

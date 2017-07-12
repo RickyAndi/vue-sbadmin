@@ -14,19 +14,48 @@ export default [
   {
     path: '/chart',
     icon: 'fa fa-fw fa-bar-chart-o',
-    name: 'Chart',
+    name: 'Chart (lazy load)',
     hasChild: false
   },
   {
-    icon: 'fa fa-fw fa-caret-down',
-    name: 'Dropdown',
+    icon: 'fa fa-fw fa-keyboard-o',
+    name: 'Form',
     hasChild: true,
     childs: [
       {
-        icon: 'fa fa-fw fa-bar-chart-o',
-        name: 'Chart',
-        path: '/chart'
+        icon: 'fa fa-fw fa-sign-in',
+        name: 'Login',
+        path: '/form'
+      },
+      {
+        icon: 'fa fa-fw fa-mail-forward',
+        name: 'Step form',
+        path: '/step-form'
       }
     ]
+  },
+  {
+    icon: 'fa fa-fw fa-user',
+    name: 'User (Nested Route)',
+    hasChild: false,
+    path: '/user'
+  },
+  {
+    icon: 'fa fa-fw fa-linux',
+    name: 'Modal',
+    hasChild: false,
+    path: '/modal'
+  },
+  {
+    icon: 'fa fa-fw fa-linux',
+    name: 'Vue Table',
+    hasChild: false,
+    path: '/vue-table'
+  },
+  {
+    icon: 'fa fa-fw fa-linux',
+    name: 'Crud',
+    hasChild: false,
+    path: '/crud'
   }
 ];

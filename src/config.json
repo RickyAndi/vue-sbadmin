@@ -1,0 +1,7 @@
+{
+  "server_root": "http://localhost:9000",
+  "session_key": {
+    "step_form_data": "step-form:data",
+    "user_page_current_pagiantion_page": "user-page:current-pagination-page"
+  }
+}
